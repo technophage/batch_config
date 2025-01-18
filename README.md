@@ -1,20 +1,15 @@
 Cisco IOS batch configuration pusher
 
-
-written in python3
-
-requires getpass and netmiko modules to be installed
+requires getpass and netmiko modules to be installed;
 
 python3 -m pip install getpass
-
 python3 -m pip install netmiko
 
 
---
+requires two text files - 
 
-write config change into a standard text file
-
-hosts file should have one ip per line
+    a hosts file with hosts you want to modify one IP per line
+    a config file with the snipper you want to push out
 
 
 
